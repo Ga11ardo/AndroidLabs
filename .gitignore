@@ -1,0 +1,88 @@
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
+build/
+**/build/
+**/captures/
+**/intermediates/
+**/generated/
+**/out/
+local.properties
+
+# Sign-in keys
+*.jks
+*.keystore
+signing.properties
+
+# Log and OS files
+*.log
+*.swp
+*.DS_Store
+*.class
+*.tmp
+*.bak
+*.orig
+
+# Android specific
+.externalNativeBuild/
+.cxx/
+*.apk
+*.ap_
+
+# IntelliJ
+out/
+gen/
+
+# Kotlin specific
+*.kotlin_module
+
+# Misc
+*.dex
+*.class
+*.jar
+*.so
+*.zip
+
+# NDK / CMake
+.cmake/
+cmake-build-*/
+
+# VS Code
+.vscode/
+
+# Unit test reports
+test-results/
+test-output/
+
+# Crashlytics/Firebase
+crashlytics.properties
+fabric.properties
+firebase/
+
+# Jetpack Compose
+.compose-cache/
+
+# IDE indexing
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# MacOS specific
+._*
+
+# Windows specific
+Thumbs.db
+Desktop.ini
